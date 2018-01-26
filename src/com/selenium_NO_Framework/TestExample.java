@@ -6,26 +6,23 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.internal.FindsByLinkText;
 
+public class TestExample {
 
-
-public class NoFramework {
 
     WebDriver driver;
 
     @BeforeTest
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "libs/chromedriver"); //need to define where the exe is
+        driver = new FirefoxDriver();
+        driver.get("http://book.theautmatedtester.co.uk/chapter1");
 
-
-        driver = new ChromeDriver();
-        driver.get("http://book.theautomatedtester.co.uk/");
-        driver.getCurrentUrl();
     }
 
     @AfterTest
@@ -34,15 +31,13 @@ public class NoFramework {
     }
 
     @Test
-    public void testEcamplesGoHere() throws InterruptedException {
-
-        sleep(5000); //I just put a sleep method to slow things down to see things happen
+    public void testExamplesGoHere() {
         List<WebElement> elements = ((FindsByLinkText) driver).findElementsByLinkText("Chapter1");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
         Assert.assertEquals(1, elements.size());
+
     }
 
-    private void sleep(int time) throws InterruptedException {
-        Thread.sleep(time);
-    }
 
 }
