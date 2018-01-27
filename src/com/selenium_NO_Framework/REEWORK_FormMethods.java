@@ -2,7 +2,6 @@ package com.selenium_NO_Framework;
 
 import org.testng.Assert;
 
-/// @@@@@@@@ RE WORK - SECTION 7 LECTURE 58 *******************
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,6 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class REEWORK_FormMethods {
 
     public static void main(String[] args) {
+
+        /// @@@@@@@@ RE WORK - SECTION 7 LECTURE 58 *******************
+
         // TODO Auto-generated method stub
         System.setProperty("webdriver.chrome.driver", "libs/chromedriver");
         WebDriver driver = new ChromeDriver();
