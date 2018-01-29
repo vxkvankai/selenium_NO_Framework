@@ -19,5 +19,11 @@ public class FramesByIndex {
         a.dragAndDrop(drag, drop).build().perform();
 
         driver.quit();
+
     }
+
+    //    public void switchFrame(WebDriver driver)
+    //    {
+    //        
+    //    }        
 }

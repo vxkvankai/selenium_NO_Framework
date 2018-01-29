@@ -18,6 +18,7 @@ public class SwitchingBetweenBrowserChildTabs {
         Set<String> handles = driver.getWindowHandles();
         Iterator<String> it = handles.iterator();
         String parentid = it.next();
+
         String childid = it.next();
 
         //        NEEDS REWORK ON THIRD TAB
