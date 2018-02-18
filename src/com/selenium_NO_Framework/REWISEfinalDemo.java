@@ -11,9 +11,9 @@ package com.selenium_NO_Framework;
 // DEFAULT MODIFIER - variable or method - ANYWHERE ONLY IN SAME PACKAGE
 // PUBLIC: variable / method: then accessible anywhere ACROSS ALL PACKAGES
 // PRIVATE: variable/method: CANNOT ACCESS OUTSIDE OF THE CLASS
-// PROTECTED: variable /mehtod as private: ACCESS IN SUB-CLASS ONLY (INHERITING CLASS/CHILD CLASS) EITHER IS SAME PACKAGE OR **
+// PROTECTED: variable /mehtod: ACCESS IN SUB-CLASS ONLY (INHERITING CLASS/CHILD CLASS) EITHER IS SAME PACKAGE OR **
 // OTHER PACKAGES
-//
+// *** ONE try can be folloded by multiple catch blocks
 
 public class REWISEfinalDemo {
 
