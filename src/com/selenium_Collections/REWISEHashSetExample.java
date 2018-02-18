@@ -1,4 +1,4 @@
-package com.selenium_NO_Framework;
+package com.selenium_Collections;
 
 import java.util.HashSet;
 import java.util.Iterator;

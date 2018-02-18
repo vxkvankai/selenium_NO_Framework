@@ -1,4 +1,4 @@
-package com.selenium_NO_Framework;
+package com.selenium_Collections;
 
 public class ConstructorDemo {
 

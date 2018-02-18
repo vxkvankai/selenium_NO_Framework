@@ -1,4 +1,4 @@
-package com.selenium_NO_Framework;
+package com.selenium_Collections;
 
 // **** IMP KEYWORDS: this, super, "final,try/catch can go with finally", final, packages, import, inheritance, interfaces, runtime
 // polymorphism as shown in BankingClientInterface, strings, HASHSET, HASHMAP
