@@ -1,11 +1,8 @@
 package java_5_featues_Practice;
 
-
-public class Employee {
-
+public class Department {
     private Integer id;
     private String name;
-    private Double salary;
 
     public Integer getId() {
         return id;
@@ -23,17 +20,10 @@ public class Employee {
         this.name = name;
     }
 
-    public Double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double i) {
-        this.salary = i;
-    }
-
     @Override
     public String toString() {
-        return "Department [id= " + id + ", name=" + name + ", salary = " + salary + "]";
+
+        return "Department [id= " + id + ", name=" + name + "]";
     }
 
 }
